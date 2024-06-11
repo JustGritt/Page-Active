@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/style.css">
+    <script src="src/main.ts" type="module"></script>
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <h1>Always Active Window Test</h1>
+
+        <div id="video-container">
+            <video id="testVideo" width="640" controls>
+                <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+        <div id="timer">
+            <h2>Timer: <span id="time">0</span> seconds</h2>
+            <button id="timer-reset">Reset</button>
+        </div>
+
+        <div id="status">
+            <h2>Window Status: <span id="statusMessage">Active</span></h2>
+        </div>
+    </main>
+</body>
+</html>
